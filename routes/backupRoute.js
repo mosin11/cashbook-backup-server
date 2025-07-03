@@ -1,17 +1,33 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+const multer = require('multer');
+const getBackupEmailTemplate = require('../emailTemplates/backupEmailTemplate');
+const upload = multer({
+    limits: {
+        fileSize: 10 * 1024 * 1024 * 1024// 10MB
+    }
+});
 const router = express.Router();
 const BackupSchema = require('../models/BackupSchema');
 require('dotenv').config(); // ⬅️ Load .env variables
 const logger = require('../utils/logger'); // ⬅️ Import logger utility
 
-router.post('/', async (req, res) => {
+router.post('/', upload.single('pdf'), async (req, res) => {
     logger.info('entering backup route');
-    const { backupData, email } = req.body;
 
-    if (!backupData || !email) {
-        logger.info('Backup data and email are required');
-        return res.status(400).json({ message: 'Backup data and email are required' });
+    const { email } = req.body;
+    const { subject, text, html } = getBackupEmailTemplate(email);
+    let backupData;
+    try {
+        backupData = JSON.parse(req.body.backupData);
+    } catch (err) {
+        logger.error('❌ Invalid JSON in backupData');
+        return res.status(400).json({ message: 'Invalid backup data format' });
+    }
+
+    if (!email || !req.file) {
+        logger.info('❌ Missing email or PDF file');
+        return res.status(400).json({ message: 'Email and PDF attachment are required' });
     }
 
     try {
@@ -26,19 +42,20 @@ router.post('/', async (req, res) => {
         const mailOptions = {
             from: process.env.GMAIL_USER,
             to: email, // <-- use provided email directly
-            subject: 'Your CashBook Backup',
-            text: 'Attached is your backup JSON from CashBook App.',
+            subject,
+            text,
+            html,
             attachments: [
                 {
-                    filename: 'cashbook_backup.json',
-                    content: JSON.stringify(backupData, null, 2),
-                    contentType: 'application/json'
+                    filename: 'Cashbook_Report.pdf',
+                    content: req.file.buffer,
+                    contentType: 'application/pdf'
                 }
             ]
         };
 
         await transporter.sendMail(mailOptions);
-        logger.info('mail sent to ' + email);
+        logger.info(`✅ Backup PDF sent to ${email}`);
         const BackupObj = new BackupSchema({
             email,
             backup: backupData
