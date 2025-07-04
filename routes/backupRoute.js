@@ -50,6 +50,11 @@ router.post('/', upload.single('pdf'), async (req, res) => {
                     filename: 'Cashbook_Report.pdf',
                     content: req.file.buffer,
                     contentType: 'application/pdf'
+                },
+                {
+                    filename: 'cashbook_backup.json',
+                    content: JSON.stringify(backupData, null, 2), // pretty print JSON
+                    contentType: 'application/json'
                 }
             ]
         };
