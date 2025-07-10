@@ -1,11 +1,16 @@
 @echo off
 echo Cleaning up node_modules from repo and local...
 @echo off
+git init
+
+
+
+git remote add origin https://github.com/mosin11/cashbook-backup-server
 echo === Adding all changes to Git ===
 git add .
 
 :: Step 4: Commit the change
-git commit -m "Remove node_modules from repo and local"
+git commit -m "added auth code for user based"
 
 
 echo === Pushing to origin master ===

@@ -1,10 +1,15 @@
 const express = require('express');
+require('dotenv').config();
 const bodyParser = require('body-parser');
 const authRoutes = require('./routes/auth');
 const authMiddleware = require('./middleware/authMiddleware');
 const cors = require('cors');
 const logger = require('./utils/logger');
 const mongoose = require('mongoose');
+const transactionRoutes = require('./routes/transactionRoutes');
+const mpinRoutes = require('./routes/mpinRoutes');
+const backupRoutes = require('./routes/backupRoute');
+
 
 
 
@@ -15,9 +20,11 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cors());
 // Routes
 app.use('/api/auth', authRoutes);
-const backupRoutes = require('./routes/backupRoute');
+
 // app.use('/api/backup', authMiddleware, backupRoutes);
 app.use('/api/backup', backupRoutes);
+app.use('/api/transactions', transactionRoutes);
+app.use('/api/mpin', mpinRoutes);
 
 // Optional: Friendly root route
 app.get('/', (req, res) => {

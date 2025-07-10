@@ -1,2 +1,4 @@
 [2025-07-04 03:01:46] ERROR: ❌ Invalid JSON in backupData
-backupEmailTemplate.js
+backupEmailTemplate.js[2025-07-10 09:47:59] ERROR: Register OTP Error: User validation failed: mobile: Path `mobile` is required., name: Path `name` is required.
+[2025-07-10 09:51:19] ERROR: Register OTP Error: User validation failed: mobile: Path `mobile` is required., name: Path `name` is required.
+[2025-07-10 10:07:25] ERROR: Register OTP Error: User validation failed: mobile: Path `mobile` is required., name: Path `name` is required.
