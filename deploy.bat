@@ -10,7 +10,7 @@ echo === Adding all changes to Git ===
 git add .
 
 :: Step 4: Commit the change
-git commit -m "added auth code for user based"
+git commit -m "transaction details added, add, delete, update"
 
 
 echo === Pushing to origin master ===

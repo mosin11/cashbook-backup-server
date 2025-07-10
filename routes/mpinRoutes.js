@@ -1,5 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const authMiddleware = require('../middleware/authMiddleware'); // must decode JWT
 const router = express.Router();
@@ -40,10 +41,12 @@ router.post('/verify', async (req, res) => {
   }
 
   // Issue token for session
-  const jwt = require('jsonwebtoken');
+  
   const token = jwt.sign({ email: user.email }, process.env.JWT_SECRET, { expiresIn: '7d' });
-
-  res.json({ token });
+  res.json({
+  token,
+  userName: user.name
+});
 });
 
 module.exports = router;
