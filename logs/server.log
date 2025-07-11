@@ -347,3 +347,132 @@
 [2025-07-11 10:49:17] INFO: Found 6 transactions for mosinzhb32@gmail.com
 [2025-07-11 10:49:27] INFO: POST /api/transactions/delete | ID: 1752210941867 | Email: mosinzhb32@gmail.com
 [2025-07-11 10:49:27] INFO: ✅ Transaction deleted | ID: 68709dfdde776a5c04d7ffcc
+[2025-07-11 11:16:29] INFO: Connected to MongoDB
+[2025-07-11 11:17:05] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:17:05] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:34:07] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:34:07] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:35:29] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:35:29] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:37:21] INFO: POST /api/transactions/delete | ID: 1752211673020 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:37:21] INFO: ✅ Transaction deleted | ID: 6870a0daab666885f0436951
+[2025-07-11 11:37:24] INFO: POST /api/transactions/delete | ID: 1752171264764 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:37:24] INFO: ✅ Transaction deleted | ID: 687003010ca574785560e880
+[2025-07-11 11:37:28] INFO: POST /api/transactions/delete | ID: 1752171251956 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:37:28] INFO: ✅ Transaction deleted | ID: 687002f40ca574785560e87e
+[2025-07-11 11:37:31] INFO: POST /api/transactions/delete | ID: 1752171225380 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:37:31] INFO: ✅ Transaction deleted | ID: 687002da0ca574785560e87c
+[2025-07-11 11:37:43] INFO: POST /api/transactions/add
+[2025-07-11 11:37:43] INFO: ✅ Transaction added | ID: 1752214063537 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:37:50] INFO: PUT /api/transactions/update
+[2025-07-11 11:37:50] INFO: ✅ Transaction updated | ID: 6870aa2f842e3e18bae593d2
+[2025-07-11 11:41:32] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:41:32] INFO: Found 1 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:41:57] INFO: POST /api/transactions/add
+[2025-07-11 11:41:57] INFO: ✅ Transaction added | ID: 1752214317691 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:43:26] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:43:26] INFO: ➡️ GET /api/transactions/getAllTransaction/Mosin
+[2025-07-11 11:43:26] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:43:26] INFO: Found 0 transactions for Mosin
+[2025-07-11 11:43:56] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:43:56] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:44:09] INFO: POST /api/transactions/delete | ID: 1752214063537 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:44:09] INFO: ✅ Transaction deleted | ID: 6870aa2f842e3e18bae593d2
+[2025-07-11 11:44:12] INFO: POST /api/transactions/delete | ID: 1752214317691 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:44:12] INFO: ✅ Transaction deleted | ID: 6870ab2d842e3e18bae593d6
+[2025-07-11 11:44:19] INFO: POST /api/transactions/add
+[2025-07-11 11:44:19] INFO: ✅ Transaction added | ID: 1752214459184 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:44:26] INFO: POST /api/transactions/add
+[2025-07-11 11:44:26] INFO: ✅ Transaction added | ID: 1752214466729 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:44:33] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:44:33] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:44:38] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:44:38] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:46:29] INFO: PUT /api/transactions/update
+[2025-07-11 11:46:29] INFO: ✅ Transaction updated | ID: 6870abc2842e3e18bae593df
+[2025-07-11 11:47:16] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:47:16] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:48:08] INFO: PUT /api/transactions/update
+[2025-07-11 11:48:08] INFO: ✅ Transaction updated | ID: 6870abc2842e3e18bae593df
+[2025-07-11 11:48:47] INFO: POST /api/transactions/delete | ID: 1752214466729 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:48:47] INFO: ✅ Transaction deleted | ID: 6870abc2842e3e18bae593df
+[2025-07-11 11:48:50] INFO: POST /api/transactions/delete | ID: 1752214459184 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:48:50] INFO: ✅ Transaction deleted | ID: 6870abbb842e3e18bae593dd
+[2025-07-11 11:48:59] INFO: POST /api/transactions/add
+[2025-07-11 11:48:59] INFO: ✅ Transaction added | ID: 1752214739663 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:49:14] INFO: POST /api/transactions/add
+[2025-07-11 11:49:14] INFO: ✅ Transaction added | ID: 1752214754156 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:53:49] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:53:49] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:55:00] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:55:00] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:55:23] INFO: POST /api/transactions/add
+[2025-07-11 11:55:23] INFO: ✅ Transaction added | ID: 1752215123539 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:56:38] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:56:38] INFO: Found 3 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:57:24] INFO: POST /api/transactions/add
+[2025-07-11 11:57:25] INFO: ✅ Transaction added | ID: 1752215245003 | Email: mosinzhb32@gmail.com
+[2025-07-11 11:59:20] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 11:59:20] INFO: ➡️ GET /api/transactions/getAllTransaction/Mosin
+[2025-07-11 11:59:20] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 11:59:20] INFO: Found 0 transactions for Mosin
+[2025-07-11 12:00:13] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:00:13] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:01:48] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:01:48] INFO: ➡️ GET /api/transactions/getAllTransaction/Mosin
+[2025-07-11 12:01:48] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:01:48] INFO: Found 0 transactions for Mosin
+[2025-07-11 12:02:03] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:02:03] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:02:39] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:02:39] INFO: Found 4 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:02:48] INFO: POST /api/transactions/add
+[2025-07-11 12:02:48] INFO: ✅ Transaction added | ID: 1752215568260 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:16] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:10:16] INFO: Found 5 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:10:25] INFO: POST /api/transactions/delete | ID: 1752215123539 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:25] INFO: ✅ Transaction deleted | ID: 6870ae53842e3e18bae593ee
+[2025-07-11 12:10:28] INFO: POST /api/transactions/delete | ID: 1752214754156 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:28] INFO: ✅ Transaction deleted | ID: 6870ace2842e3e18bae593ea
+[2025-07-11 12:10:30] INFO: POST /api/transactions/delete | ID: 1752215245003 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:30] INFO: ✅ Transaction deleted | ID: 6870aecc842e3e18bae593f1
+[2025-07-11 12:10:33] INFO: POST /api/transactions/delete | ID: 1752214739663 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:33] INFO: ✅ Transaction deleted | ID: 6870acd3842e3e18bae593e8
+[2025-07-11 12:10:36] INFO: POST /api/transactions/delete | ID: 1752215568260 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:36] INFO: ✅ Transaction deleted | ID: 6870b010842e3e18bae593fa
+[2025-07-11 12:10:43] INFO: POST /api/transactions/add
+[2025-07-11 12:10:43] INFO: ✅ Transaction added | ID: 1752216043488 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:10:50] INFO: POST /api/transactions/add
+[2025-07-11 12:10:50] INFO: ✅ Transaction added | ID: 1752216050353 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:11:36] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:11:36] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:13:04] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:13:04] INFO: ➡️ GET /api/transactions/getAllTransaction/Mosin
+[2025-07-11 12:13:04] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:13:04] INFO: Found 0 transactions for Mosin
+[2025-07-11 12:14:08] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:14:08] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:14:26] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:14:26] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:14:34] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:14:34] INFO: Found 2 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:14:46] INFO: POST /api/transactions/add
+[2025-07-11 12:14:46] INFO: ✅ Transaction added | ID: 1752216286567 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:15:54] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:15:54] INFO: Found 3 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:16:51] INFO: ➡️ GET /api/transactions/getAllTransaction/mosinzhb32@gmail.com
+[2025-07-11 12:16:51] INFO: Found 3 transactions for mosinzhb32@gmail.com
+[2025-07-11 12:16:56] INFO: POST /api/transactions/add
+[2025-07-11 12:16:56] INFO: ✅ Transaction added | ID: 1752216416672 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:19:41] INFO: POST /api/transactions/delete | ID: 1752216416672 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:19:41] INFO: ✅ Transaction deleted | ID: 6870b360842e3e18bae59410
+[2025-07-11 12:19:44] INFO: POST /api/transactions/delete | ID: 1752216286567 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:19:44] INFO: ✅ Transaction deleted | ID: 6870b2de842e3e18bae5940c
+[2025-07-11 12:19:49] INFO: POST /api/transactions/delete | ID: 1752216050353 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:19:49] INFO: ✅ Transaction deleted | ID: 6870b1f2842e3e18bae59404
+[2025-07-11 12:19:52] INFO: POST /api/transactions/delete | ID: 1752216043488 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:19:52] INFO: ✅ Transaction deleted | ID: 6870b1eb842e3e18bae59402
+[2025-07-11 12:20:04] INFO: POST /api/transactions/add
+[2025-07-11 12:20:04] INFO: ✅ Transaction added | ID: 1752216604068 | Email: mosinzhb32@gmail.com
+[2025-07-11 12:20:12] INFO: POST /api/transactions/add
+[2025-07-11 12:20:13] INFO: ✅ Transaction added | ID: 1752216612973 | Email: mosinzhb32@gmail.com
