@@ -24,21 +24,13 @@ router.post('/add', async (req, res) => {
 
   const transactionType = type === 'in' ? 'cash_in' : 'cash_out';
 
-  // 🕒 Parse date
-  let parsedDate = new Date();
-  if (date) {
-    const [dd, mm, yyyyAndTime] = date.split('-');
-    const [yyyy, hhmm] = yyyyAndTime.split(' ');
-    parsedDate = new Date(`${yyyy}-${mm}-${dd}T${hhmm}:00`);
-  }
-
   try {
     const newTransaction = new Transaction({
       description: desc,
       amount,
       id:id,
       type: transactionType,
-      date: parsedDate,
+      date: date,
       email,
     });
 
@@ -62,7 +54,7 @@ router.get('/getAllTransaction/:email', async (req, res) => {
   }
 
   try {
-    const transactions = await Transaction.find({ email }).sort({ date: -1 });
+    const transactions = await Transaction.find({ email }).sort({ id: -1 });
     logger.info(`Found ${transactions.length} transactions for ${email}`);
     res.json(transactions);
   } catch (error) {
@@ -88,7 +80,7 @@ router.put('/update', async (req, res) => {
         description: desc,
         amount,
         type: type === 'in' ? 'cash_in' : 'cash_out',
-        date: new Date(date),
+        date: date,
       },
       { new: true }
     );

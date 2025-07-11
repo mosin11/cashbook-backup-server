@@ -6,7 +6,7 @@ const transactionSchema = new mongoose.Schema({
   amount: { type: Number, required: true },
   type: { type: String, enum: ['cash_in', 'cash_out'], required: true },
   category: { type: String },
-  date: { type: Date, default: Date.now },
+  date: { type: String },
   email: { type: String, required: true }
 });
 
