@@ -22,8 +22,8 @@ app.use(cors());
 app.use('/api/auth', authRoutes);
 
 // app.use('/api/backup', authMiddleware, backupRoutes);
-app.use('/api/backup', backupRoutes);
-app.use('/api/transactions', transactionRoutes);
+app.use('/api/backup', authMiddleware, backupRoutes);
+app.use('/api/transactions', authMiddleware, transactionRoutes);
 app.use('/api/mpin', mpinRoutes);
 
 // Optional: Friendly root route

@@ -10,7 +10,7 @@ echo === Adding all changes to Git ===
 git add .
 
 :: Step 4: Commit the change
-git commit -m "transaction details added, add, delete, update"
+git commit -m "encrpted and decrepted logic added"
 
 
 echo === Pushing to origin master ===

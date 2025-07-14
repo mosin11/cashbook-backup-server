@@ -2,11 +2,34 @@ const express = require('express');
 const router = express.Router();
 const Transaction = require('../models/Transaction');
 const logger = require('../utils/logger');
+const  {decryptData}  = require('../utils/decryptor');
+
+
 
 // 🔹 Add new transaction
+
 router.post('/add', async (req, res) => {
   logger.info('POST /api/transactions/add');
-  const { id, amount, desc, type, date, email } = req.body;
+
+  logger.info('Raw body:',req.body);
+
+  const payload = req.body.data;
+
+  if (!payload || typeof payload !== 'object') {
+    logger.error('Invalid payload structure');
+    return res.status(400).json({ message: 'Missing or malformed payload.data' });
+  }
+
+  let data;
+  try {
+    data = decryptData(payload);
+    logger.info('POST /api/transactions/add:data', data);
+  } catch (err) {
+    logger.error('Decryption failed: ' + err.message);
+    return res.status(400).json({ message: 'Invalid encrypted data' });
+  }
+
+  const { id, amount, desc, type, date, email } = data;
 
   // 🔒 Validation
   if (!amount || !desc || !type || !email) {
@@ -28,9 +51,9 @@ router.post('/add', async (req, res) => {
     const newTransaction = new Transaction({
       description: desc,
       amount,
-      id:id,
+      id,
       type: transactionType,
-      date: date,
+      date,
       email,
     });
 
@@ -42,6 +65,7 @@ router.post('/add', async (req, res) => {
     res.status(500).json({ message: 'Failed to save transaction' });
   }
 });
+
 
 // 🔹 Get all transactions by email
 router.get('/getAllTransaction/:email', async (req, res) => {
@@ -66,7 +90,8 @@ router.get('/getAllTransaction/:email', async (req, res) => {
 // 🔹 Update transaction
 router.put('/update', async (req, res) => {
   logger.info('PUT /api/transactions/update');
-  const { id, amount, desc, type, date, email } = req.body;
+  const data = decryptData(req.body.data);
+  const { id, amount, desc, type, date, email } = data;
 
   if (!id || !amount || !desc || !type || !email) {
     logger.warn('Missing fields for update');
@@ -101,7 +126,8 @@ router.put('/update', async (req, res) => {
 // 🔹 Delete transaction
 
 router.post('/delete', async (req, res) => {
-  const { id, email } = req.body;
+  const data = decryptData(req.body.data);
+  const { id, email } = data;
 
   logger.info(`POST /api/transactions/delete | ID: ${id} | Email: ${email}`);
 

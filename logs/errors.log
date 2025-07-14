@@ -5,3 +5,51 @@ backupEmailTemplate.js[2025-07-10 09:47:59] ERROR: Register OTP Error: User vali
 [2025-07-10 21:14:06] ERROR: Error updating transaction: Cast to ObjectId failed for value "1752161794991" (type number) at path "_id" for model "Transaction"
 [2025-07-10 21:20:45] ERROR: Error saving transaction: Transaction validation failed: id: Path `id` is required.
 [2025-07-11 10:25:24] ERROR: Error saving transaction: Transaction validation failed: date: Cast to date failed for value "Invalid Date" (type Date) at path "date"
+[2025-07-13 23:42:45] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:44:54] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:46:08] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:47:53] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:49:32] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:50:45] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:52:02] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:52:28] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:52:49] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-13 23:55:10] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 00:05:42] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 00:07:21] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 17:53:57] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:00:27] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:00:27] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:02:25] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:02:25] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:04:33] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:04:33] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:05:59] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:05:59] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:10:00] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:10:00] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:10:34] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:10:34] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:12:13] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:12:13] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:15:55] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:15:56] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:17:42] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:17:42] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:21:27] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:21:27] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:24:58] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 18:24:58] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:27:33] ERROR: Decryption failed: decryptData is not a function
+[2025-07-14 18:29:07] ERROR: Decryption failed: decryptData is not a function
+[2025-07-14 18:29:25] ERROR: Decryption failed: decryptData is not a function
+[2025-07-14 18:30:29] ERROR: Decryption failed: logger is not defined
+[2025-07-14 18:30:51] ERROR: Decryption failed: key is not defined
+[2025-07-14 18:30:51] ERROR: Decryption failed: Invalid encrypted payload
+[2025-07-14 18:32:40] ERROR: Decryption failed: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received undefined
+[2025-07-14 18:34:23] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
+[2025-07-14 18:36:30] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
+[2025-07-14 18:39:00] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
+[2025-07-14 18:39:04] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
+[2025-07-14 18:39:10] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
+[2025-07-14 18:41:39] ERROR: Decryption failed: Cannot read properties of undefined (reading 'iv')
