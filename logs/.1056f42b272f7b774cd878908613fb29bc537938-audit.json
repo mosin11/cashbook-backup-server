@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "E:\\Cash Book App\\cashbook-backup-server\\logs\\.1056f42b272f7b774cd878908613fb29bc537938-audit.json",
+    "files": [
+        {
+            "date": 1752506375585,
+            "name": "E:\\Cash Book App\\cashbook-backup-server\\logs\\error-2025-07-14.log",
+            "hash": "4795965a3a90646625f8ea30ebd2c75d930a8b1c9e6328f2283e7effc71d0f5f"
+        }
+    ],
+    "hashType": "sha256"
+}

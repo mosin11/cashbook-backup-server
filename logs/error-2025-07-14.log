@@ -1,0 +1,11 @@
+[2025-07-14 20:49:56] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:50:52] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:53:18] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:15] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:18] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:23] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:56:45] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:57:15] ERROR: Decryption failed: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function trim
+[2025-07-14 20:57:42] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 21:01:26] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 21:01:36] ERROR: Decryption failed: Unsupported state or unable to authenticate data

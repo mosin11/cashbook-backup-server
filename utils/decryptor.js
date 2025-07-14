@@ -2,7 +2,7 @@ const crypto = require('crypto');
 const logger = require('./logger');
 
 // Secret configuration
-const SECRET_KEY =  process.env.SECRET_KEY;; // Should match frontend
+const SECRET_KEY = "My@ssphraseKey9875"; // Should match frontend
 const algorithm = 'aes-256-gcm';
 function decryptData(payload) {
   logger.info('Decrypting base64 payload...');
@@ -10,6 +10,7 @@ function decryptData(payload) {
     const iv = Buffer.from(payload.iv, 'base64');
     const encrypted = Buffer.from(payload.ciphertext, 'base64');
 
+console.log("ENV KEY RAW:", JSON.stringify(process.env.SECRET_KEY?.trim()));
 
     // 🔑 Derive key inside the function
     const key = crypto.createHash('sha256').update(SECRET_KEY).digest();

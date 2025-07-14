@@ -1,0 +1,87 @@
+[2025-07-14 20:49:36] INFO: Connected to MongoDB
+[2025-07-14 20:49:50] INFO: MPIN verified, token issued for user msitservices15@gmail.com
+[2025-07-14 20:49:50] INFO: ➡️ GET /api/transactions/getAllTransaction/msitservices15@gmail.com
+[2025-07-14 20:49:50] INFO: Found 2 transactions for msitservices15@gmail.com
+[2025-07-14 20:49:56] INFO: Decrypting base64 payload...
+[2025-07-14 20:49:56] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:50:43] INFO: Connected to MongoDB
+[2025-07-14 20:50:52] INFO: PUT /api/transactions/update
+[2025-07-14 20:50:52] INFO: Decrypting base64 payload...
+[2025-07-14 20:50:52] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:51:38] INFO: Connected to MongoDB
+[2025-07-14 20:51:54] INFO: Connected to MongoDB
+[2025-07-14 20:52:04] INFO: PUT /api/transactions/update
+[2025-07-14 20:52:04] INFO: Decrypting base64 payload...
+[2025-07-14 20:52:04] INFO: ✅ Transaction updated | ID: 6875193c954761c81f8e0b04
+[2025-07-14 20:52:55] INFO: Connected to MongoDB
+[2025-07-14 20:53:18] INFO: PUT /api/transactions/update
+[2025-07-14 20:53:18] INFO: Decrypting base64 payload...
+[2025-07-14 20:53:18] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:53:54] INFO: Connected to MongoDB
+[2025-07-14 20:55:07] INFO: Connected to MongoDB
+[2025-07-14 20:55:15] INFO: Decrypting base64 payload...
+[2025-07-14 20:55:15] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:18] INFO: Decrypting base64 payload...
+[2025-07-14 20:55:18] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:23] INFO: PUT /api/transactions/update
+[2025-07-14 20:55:23] INFO: Decrypting base64 payload...
+[2025-07-14 20:55:23] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:55:27] INFO: ➡️ GET /api/transactions/getAllTransaction/msitservices15@gmail.com
+[2025-07-14 20:55:27] INFO: Found 2 transactions for msitservices15@gmail.com
+[2025-07-14 20:56:39] INFO: Connected to MongoDB
+[2025-07-14 20:56:45] INFO: PUT /api/transactions/update
+[2025-07-14 20:56:45] INFO: Decrypting base64 payload...
+[2025-07-14 20:56:45] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:57:12] INFO: Connected to MongoDB
+[2025-07-14 20:57:15] INFO: PUT /api/transactions/update
+[2025-07-14 20:57:15] INFO: Decrypting base64 payload...
+[2025-07-14 20:57:15] ERROR: Decryption failed: The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received function trim
+[2025-07-14 20:57:37] INFO: Connected to MongoDB
+[2025-07-14 20:57:42] INFO: PUT /api/transactions/update
+[2025-07-14 20:57:42] INFO: Decrypting base64 payload...
+[2025-07-14 20:57:42] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 20:59:02] INFO: Connected to MongoDB
+[2025-07-14 21:00:52] INFO: Connected to MongoDB
+[2025-07-14 21:01:09] INFO: Connected to MongoDB
+[2025-07-14 21:01:26] INFO: PUT /api/transactions/update
+[2025-07-14 21:01:26] INFO: Decrypting base64 payload...
+[2025-07-14 21:01:26] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 21:01:32] INFO: ➡️ GET /api/transactions/getAllTransaction/msitservices15@gmail.com
+[2025-07-14 21:01:32] INFO: Found 2 transactions for msitservices15@gmail.com
+[2025-07-14 21:01:36] INFO: PUT /api/transactions/update
+[2025-07-14 21:01:36] INFO: Decrypting base64 payload...
+[2025-07-14 21:01:36] ERROR: Decryption failed: Unsupported state or unable to authenticate data
+[2025-07-14 21:01:57] INFO: Connected to MongoDB
+[2025-07-14 21:02:00] INFO: PUT /api/transactions/update
+[2025-07-14 21:02:00] INFO: Decrypting base64 payload...
+[2025-07-14 21:02:00] INFO: ✅ Transaction updated | ID: 6875193c954761c81f8e0b04
+[2025-07-14 21:03:29] INFO: Connected to MongoDB
+[2025-07-14 21:03:37] INFO: PUT /api/transactions/update
+[2025-07-14 21:03:37] INFO: Decrypting base64 payload...
+[2025-07-14 21:03:37] INFO: ✅ Transaction updated | ID: 6875193c954761c81f8e0b04
+[2025-07-14 21:04:36] INFO: Connected to MongoDB
+[2025-07-14 21:04:54] INFO: PUT /api/transactions/update
+[2025-07-14 21:04:54] INFO: Decrypting base64 payload...
+[2025-07-14 21:04:54] INFO: ✅ Transaction updated | ID: 6875193c954761c81f8e0b04
+[2025-07-14 21:05:17] INFO: Connected to MongoDB
+[2025-07-14 21:05:22] INFO: PUT /api/transactions/update
+[2025-07-14 21:05:22] INFO: Decrypting base64 payload...
+[2025-07-14 21:05:22] INFO: ✅ Transaction updated | ID: 6875193c954761c81f8e0b04
+[2025-07-14 21:07:13] INFO: PUT /api/transactions/update
+[2025-07-14 21:07:13] INFO: Decrypting base64 payload...
+[2025-07-14 21:07:13] INFO: ✅ Transaction updated | ID: 6875160667b3367dcb7e5b85
+[2025-07-14 21:07:20] INFO: ➡️ GET /api/transactions/getAllTransaction/msitservices15@gmail.com
+[2025-07-14 21:07:20] INFO: Found 2 transactions for msitservices15@gmail.com
+[2025-07-14 21:07:23] INFO: Decrypting base64 payload...
+[2025-07-14 21:07:23] INFO: POST /api/transactions/delete | ID: 1752504635806 | Email: msitservices15@gmail.com
+[2025-07-14 21:07:23] INFO: ✅ Transaction deleted | ID: 6875193c954761c81f8e0b04
+[2025-07-14 21:07:29] INFO: POST /api/transactions/add
+[2025-07-14 21:07:29] INFO: Raw body:
+[2025-07-14 21:07:29] INFO: Decrypting base64 payload...
+[2025-07-14 21:07:29] INFO: POST /api/transactions/add:data
+[2025-07-14 21:07:29] INFO: ✅ Transaction added | ID: 1752507449148 | Email: msitservices15@gmail.com
+[2025-07-14 21:07:32] INFO: ➡️ GET /api/transactions/getAllTransaction/msitservices15@gmail.com
+[2025-07-14 21:07:32] INFO: Found 2 transactions for msitservices15@gmail.com
+[2025-07-14 21:07:43] INFO: PUT /api/transactions/update
+[2025-07-14 21:07:43] INFO: Decrypting base64 payload...
+[2025-07-14 21:07:43] INFO: ✅ Transaction updated | ID: 687524394e8eb119686195ca
